@@ -1,6 +1,6 @@
 """ Create a Turtle, name it, make it BLUE and draw a Smiley Face"""
 import turtle
-
+'''
 smiley = turtle.Turtle()
 smiley.color("Blue")
 smiley.pu()
@@ -25,3 +25,8 @@ def smile(x):
         smiley.right(5)
 smile(4)
 input()
+'''
+
+from MyFile import NSides
+
+NSides(4)
