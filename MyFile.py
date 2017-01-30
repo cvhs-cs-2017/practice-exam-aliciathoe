@@ -6,5 +6,7 @@ def NSides(y):
     for i in range(y):
         sally.forward(35)
         sally.right(x)
-    input()
+    
+    '''
 NSides(10)
+'''
